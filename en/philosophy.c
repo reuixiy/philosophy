@@ -11,6 +11,6 @@ int main () {
 
     while(1) {
         printf("%s%s%s%s\n", question, iteration, idea, symbol);
-        strcat(iteration, prefix);
+        strcat(iteration, prefix); // a logical bug it is
     }
 }
