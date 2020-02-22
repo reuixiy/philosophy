@@ -3,9 +3,19 @@
 ## workflow
 
 ```sh
-$ vim philosophy.c
 $ # input the code
+```
+
+### c
+
+```sh
 $ gcc philosophy.c -o philosophy && ./philosophy | head -n 10
+```
+
+### js
+
+```sh
+$ node philosophy.js | head -n 10
 ```
 
 ## output
